@@ -6,7 +6,8 @@ using namespace std;
 
 
 int roll(){
-       srand((int)time(0));
+    srand(rand());
+    srand((int)time(0));
     int value = (int) ((rand() % 6) + 1);
     return value;
 }
